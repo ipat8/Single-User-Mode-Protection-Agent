@@ -8,7 +8,7 @@
 currentDate=$(date "+%Y-%m-%d %H:%M:%S")
 
 # Organization name (reverse-domain plist format)
-orgName="<orgname.org.com"
+orgName="orgname.org.com"
 
 #----------FUNCTIONS---------
 #######################
