@@ -29,7 +29,7 @@ launchctl load /System/Library/LaunchDaemons/com.apple.syslogd.plist
 function notify
 {
 curl -d 'to=example@example.com&amp;toname=Destination&amp;subject=ALERT: SINGLE USER MODE ACCESSED&amp;text=Please check the logs on <Server Name> It will tell you the MAC address of the machine, you can then consult documentation to determine the correct Mac, and its location. Please do not reply, this email is unmonitored.&amp;from=example@example.com&amp;api_user=sendgrid user&amp;api_key=sendgrid' https://api.sendgrid.com/api/mail.send.json
-curl -d -X http://textbelt.com/text -d number=<Numbr> -d "message=Single User Mode has been accessed, check the logs on CHOICE-SRV-R. Please do not reply, this number is unmonitored."
+echo $mobilealerts
 }
 ##########################
 function setPromptCommand()
