@@ -1,6 +1,6 @@
-#!bin bash
+#!/bin/bash
 #SUM detection script
-#©2016 Patrick M. Womack - Niceville High School - womackp@blacksector.tech
+#© 2016 Patrick M. Womack - Niceville High School - womackp@blacksector.tech
 #A special thanks to Jacob Salmela - None of this would have been possible without him.
 
 #----------VARIABLES---------
